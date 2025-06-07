@@ -25,4 +25,4 @@ function _wptp_wp_test_plugin() {
 	printf('<p>WP PLUGIN TEST</p>');
 }
 
-add_action('plugins_loaded', _wptp_wp_test_plugin);
+add_action('plugins_loaded', '_wptp_wp_test_plugin');
